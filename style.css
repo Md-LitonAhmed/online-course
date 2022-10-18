@@ -10,7 +10,7 @@ body{
 .main-div{
     background-color: white;
     margin-top: 50px;
-    height: 700px;
+   padding-bottom: 20px;
     border-radius: 10px;
 }
 .col-md-4{
@@ -18,9 +18,20 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+.t-color{
+    color: blue;
 
-.main-section{
-    margin-top: 60px;
+}
+.top-played{
+    background-color: #FFFFFF;
+    border-radius:10px ;
+    margin-top: 36px;
+}
+.player{
+    padding: 10px;
+}
+.top-blog{
+    padding: 15px;
 }
 .bolg-img{
     width: 200px;
@@ -36,24 +47,33 @@ a{
     font-size: 20px;
     font-weight: 20px;
 }
-.row{
-    margin-bottom: 20px;
+.blog-div{
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .last-div{
-    display: flex;
-    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
     padding: 20px;
 }
-.footer-div{
-    margin-top: 20px;
-   
-    height: 300px;
-    background-color: white;
+.cardDesign{
+    display: flex;
+    justify-content: space-between;
 }
-.card{
-    background-color: azure;
-    border: none;
+.course{
+    padding: 10px;
 }
-.card:hover{
-    box-shadow: 4px 3px 5px gray;
+.course img{
+    width: 300px;
+}
+.desc{
+    margin-top: 10px;
+}
+
+.desc h6{
+    color: brown;
+}
+.course {
+    display: block;
 }
